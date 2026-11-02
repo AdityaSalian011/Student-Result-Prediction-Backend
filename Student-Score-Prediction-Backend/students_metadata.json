@@ -1,0 +1,29 @@
+{
+    "tables": {
+        "table": {
+            "primary_key": "student_id",
+            "columns": {
+                "student_id": {
+                    "sdtype": "id"
+                },
+                "student_name": {
+                    "sdtype": "id"
+                },
+                "daily_study_hours": {
+                    "sdtype": "numerical"
+                },
+                "previous_score": {
+                    "sdtype": "numerical"
+                },
+                "attendance_percentage": {
+                    "sdtype": "numerical"
+                },
+                "sleep_hours": {
+                    "sdtype": "numerical"
+                }
+            }
+        }
+    },
+    "relationships": [],
+    "METADATA_SPEC_VERSION": "V1"
+}

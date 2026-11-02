@@ -1,0 +1,38 @@
+# Web Framework
+fastapi==0.115.12
+uvicorn==0.34.2
+
+# Database
+sqlalchemy==2.0.40
+psycopg2-binary==2.9.10
+
+# Authentication & Security
+python-jose[cryptography]==3.4.0
+python-multipart==0.0.20
+
+# Data Validation
+pydantic==2.11.3
+pydantic[email]==2.11.3
+email-validator==2.2.0
+
+# Data Processing
+pandas==2.2.3
+numpy==2.2.5
+openpyxl==3.1.5
+joblib==1.4.2
+
+# Machine Learning
+scikit-learn==1.7.2
+
+# Synthetic Data Generation
+sdv==1.20.0
+Faker==40.15.0
+
+# Email
+requests==2.32.5
+
+# PDF Generation
+weasyprint==65.0
+
+# Environment
+python-dotenv==1.1.0
